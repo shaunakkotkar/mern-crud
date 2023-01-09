@@ -72,6 +72,7 @@ class App extends Component {
   }
 
   render() {
+    let online
     let peopleOnline = this.state.online - 1;
     let onlineText = "";
 
